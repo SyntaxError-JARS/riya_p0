@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bbb0c843-0643-4b8e-9103-63a3929bd665" name="Changes" comment="finished on welcome and register menu">
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_12_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_4_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/banking/daos/AccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/banking/exceptions/AuthenticationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/banking/exceptions/InvalidRequestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/banking/exceptions/ResourcePersistanceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/banking/models/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/banking/services/AccountServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/banking/services/Serviceable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/banking/util/logging/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/banking/util/logging/web/dto/LoginCreds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/banking/util/logging/web/servlets/AccountServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/banking/util/logging/web/servlets/AuthServlets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/banking/util/logging/web/servlets/Authable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/banking/util/logging/web/servlets/TestServlets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/banking/util/logging/web/servlets/UserServlets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/revature/banking/util/logging/web/util/ContextLoaderListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/bankingapp.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/revature/banking/services/UserServiceTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/revature/banking/util/ConnectionFactoryTestSuit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bankingapp-1.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bankingapp-1.0-SNAPSHOT/Index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bankingapp-1.0-SNAPSHOT/WEB-INF/classes/bankingapp.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bankingapp-1.0-SNAPSHOT/WEB-INF/classes/com/revature/banking/daos/AccountDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bankingapp-1.0-SNAPSHOT/WEB-INF/classes/com/revature/banking/daos/Crudable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bankingapp-1.0-SNAPSHOT/WEB-INF/classes/com/revature/banking/daos/UsersDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bankingapp-1.0-SNAPSHOT/WEB-INF/classes/com/revature/banking/exceptions/AuthenticationException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bankingapp-1.0-SNAPSHOT/WEB-INF/classes/com/revature/banking/exceptions/InvalidRequestException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bankingapp-1.0-SNAPSHOT/WEB-INF/classes/com/revature/banking/exceptions/ResourcePersistanceException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bankingapp-1.0-SNAPSHOT/WEB-INF/classes/com/revature/banking/models/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bankingapp-1.0-SNAPSHOT/WEB-INF/classes/com/revature/banking/models/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bankingapp-1.0-SNAPSHOT/WEB-INF/classes/com/revature/banking/services/AccountServices.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bankingapp-1.0-SNAPSHOT/WEB-INF/classes/com/revature/banking/services/Serviceable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bankingapp-1.0-SNAPSHOT/WEB-INF/classes/com/revature/banking/services/UserServices.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bankingapp-1.0-SNAPSHOT/WEB-INF/classes/com/revature/banking/util/ConnectionFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bankingapp-1.0-SNAPSHOT/WEB-INF/classes/com/revature/banking/util/logging/Logger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bankingapp-1.0-SNAPSHOT/WEB-INF/classes/com/revature/banking/util/logging/web/dto/LoginCreds.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bankingapp-1.0-SNAPSHOT/WEB-INF/classes/com/revature/banking/util/logging/web/servlets/AccountServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bankingapp-1.0-SNAPSHOT/WEB-INF/classes/com/revature/banking/util/logging/web/servlets/AuthServlets.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bankingapp-1.0-SNAPSHOT/WEB-INF/classes/com/revature/banking/util/logging/web/servlets/Authable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bankingapp-1.0-SNAPSHOT/WEB-INF/classes/com/revature/banking/util/logging/web/servlets/TestServlets.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bankingapp-1.0-SNAPSHOT/WEB-INF/classes/com/revature/banking/util/logging/web/servlets/UserServlets.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bankingapp-1.0-SNAPSHOT/WEB-INF/classes/com/revature/banking/util/logging/web/util/ContextLoaderListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bankingapp-1.0-SNAPSHOT/WEB-INF/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bankingapp-1.0-SNAPSHOT/WEB-INF/lib/checker-qual-3.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bankingapp-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.13.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bankingapp-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.13.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bankingapp-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.13.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bankingapp-1.0-SNAPSHOT/WEB-INF/lib/postgresql-42.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/bankingapp-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/bankingapp.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/revature/banking/daos/AccountDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/revature/banking/exceptions/AuthenticationException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/revature/banking/exceptions/InvalidRequestException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/revature/banking/exceptions/ResourcePersistanceException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/revature/banking/models/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/revature/banking/services/AccountServices.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/revature/banking/services/Serviceable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/revature/banking/util/logging/Logger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/revature/banking/util/logging/web/dto/LoginCreds.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/revature/banking/util/logging/web/servlets/AccountServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/revature/banking/util/logging/web/servlets/AuthServlets.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/revature/banking/util/logging/web/servlets/Authable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/revature/banking/util/logging/web/servlets/TestServlets.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/revature/banking/util/logging/web/servlets/UserServlets.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/revature/banking/util/logging/web/util/ContextLoaderListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/revature/banking/services/UserServiceTestSuite.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/revature/banking/util/ConnectionFactoryTestSuit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankingapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bankingapp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/banking/MainDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/banking/daos/Crudable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/banking/daos/Crudable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/banking/daos/UsersDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/banking/daos/UsersDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/banking/menus/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/banking/menus/RegisterMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/banking/menus/WelcomeMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/banking/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/banking/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/banking/services/UserServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/banking/services/UserServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/banking/util/AppState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/banking/util/ConnectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/revature/banking/util/ConnectionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/revature/banking/util/appstatetest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/banking/MainDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/banking/daos/UsersDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revature/banking/daos/UsersDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/banking/menus/Menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/banking/menus/RegisterMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/banking/menus/WelcomeMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/banking/models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revature/banking/models/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/banking/services/UserServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revature/banking/services/UserServices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/banking/util/AppState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/banking/util/ConnectionFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/revature/banking/util/ConnectionFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/revature/banking/util/appstatetest.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Interface" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="28l980h7eA9qlk8Kro4MyVRUl09" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Revature pro/p0/postgresql-42.3.3 (1).jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.revature.banking.web.servlets" />
+      <recent name="com.revature.banking.menus" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\19295\OneDrive\Desktop\bankingapp\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Maven.bankingapp [clean,install,tomcat7:deploy]">
+    <configuration name="MainDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.revature.banking.MainDriver" />
+      <module name="bankingapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.revature.banking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConnectionFactoryTestSuit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bankingapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.revature.banking.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.revature.banking.util" />
+      <option name="MAIN_CLASS_NAME" value="com.revature.banking.util.ConnectionFactoryTestSuit" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConnectionFactoryTestSuit.test_getConnection_givenProvidedCredentials_returnValidConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bankingapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.revature.banking.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.revature.banking.util" />
+      <option name="MAIN_CLASS_NAME" value="com.revature.banking.util.ConnectionFactoryTestSuit" />
+      <option name="METHOD_NAME" value="test_getConnection_givenProvidedCredentials_returnValidConnection" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bankingapp [clean,install,tomcat7:deploy]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+                <option value="tomcat7:deploy" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.MainDriver" />
+      <item itemvalue="JUnit.ConnectionFactoryTestSuit" />
+      <item itemvalue="JUnit.ConnectionFactoryTestSuit.test_getConnection_givenProvidedCredentials_returnValidConnection" />
+      <item itemvalue="Maven.bankingapp [clean,install,tomcat7:deploy]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ConnectionFactoryTestSuit.test_getConnection_givenProvidedCredentials_returnValidConnection" />
+        <item itemvalue="JUnit.ConnectionFactoryTestSuit" />
+        <item itemvalue="Application.MainDriver" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bbb0c843-0643-4b8e-9103-63a3929bd665" name="Changes" comment="" />
+      <created>1651780145092</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651780145092</updated>
+    </task>
+    <task id="LOCAL-00001" summary="finished on welcome and register menu">
+      <created>1652387258250</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652387258250</updated>
+    </task>
+    <task id="LOCAL-00002" summary="finished on welcome and register menu">
+      <created>1652387801999</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652387801999</updated>
+    </task>
+    <task id="LOCAL-00003" summary="finished on welcome and register menu">
+      <created>1652388196614</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652388196614</updated>
+    </task>
+    <task id="LOCAL-00004" summary="finished on welcome and register menu">
+      <created>1652388809880</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652388809880</updated>
+    </task>
+    <task id="LOCAL-00005" summary="finished on welcome and register menu">
+      <created>1652439305541</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652439305541</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="finished on welcome and register menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished on welcome and register menu" />
+  </component>
+</project>
